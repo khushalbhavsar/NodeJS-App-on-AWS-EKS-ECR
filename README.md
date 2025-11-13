@@ -4,6 +4,42 @@ Deploy a **containerized Node.js application** to **AWS EKS (Elastic Kubernetes 
 
 ---
 
+## 📖 Project Description
+
+This project demonstrates a complete DevOps workflow for deploying a containerized Node.js application to AWS Elastic Kubernetes Service (EKS). The application is packaged as a Docker container, stored in Amazon Elastic Container Registry (ECR), and deployed to a managed Kubernetes cluster with automatic scaling and load balancing.
+
+**Key Features:**
+- ✅ Containerized Node.js Express application
+- ✅ Automated Docker image builds and ECR storage
+- ✅ Managed Kubernetes cluster on AWS EKS
+- ✅ LoadBalancer service for external access
+- ✅ Health checks and monitoring endpoints
+- ✅ Auto-scaling with 3 pod replicas
+- ✅ Infrastructure as Code using kubectl manifests
+
+---
+
+## 📁 Project Structure
+
+```
+NodeJS-App-on-AWS-EKS-ECR/
+│
+├── server.js                    # Node.js Express application
+├── package.json                 # NPM dependencies and scripts
+├── Dockerfile                   # Docker build instructions
+│
+├── k8s/                         # Kubernetes manifests
+│   ├── namespace.yaml           # Kubernetes namespace definition
+│   ├── deployment.yaml          # Application deployment configuration
+│   └── service.yaml             # LoadBalancer service configuration
+│
+├── COMMANDS.md                  # Quick reference commands
+├── DEPLOYMENT-STEPS.md          # Detailed deployment guide
+└── README.md                    # This file
+```
+
+---
+
 ## 🧠 Tech Stack
 
 * **Node.js** – Application runtime

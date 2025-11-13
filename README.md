@@ -1,7 +1,3 @@
-Here’s a clean, easy-to-read **README.md** file for your project 👇
-
----
-
 # 🚀 Node.js Application Deployment on AWS EKS with ECR
 
 Deploy a **containerized Node.js application** to **AWS EKS (Elastic Kubernetes Service)** using **ECR (Elastic Container Registry)** as the container registry.
